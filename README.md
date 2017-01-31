@@ -1,0 +1,7 @@
+My overall approach was to retrieve the Random User JSON data and put them in a table view. To make the code more clear and tidy, I separated the classes that handles data(JSON, Image, and Random User API) in separate files and folder. I always use a library called SwiftyJSON when handling JSON in swift because it makes the process less messy and it makes the code more readable. I also wanted to add a settings tab to control how many users should appear in the list so I adde settings bundle in the project to keep track of the number of users.
+
+ I believe I completed everything plus bonus points: initial pull to display the contacts, segue to view more detail about the current contact, and also a settings tab to set how many random users should appear. 
+
+Given more time, I’d like to add constraints on the view so the app could have better arrangements in different screen sizes, make the app available for ipad or apple watch, the API provides more options (such as gender, nationalities, and etc.) so I’d like to add those options in the settings tab. I could also have add and delete button that would save or remove records using the CoreData.
+
+If I had more time to make my project more robust, I’d definitely like to add more unit tests and maybe even UI Tests, I’ll probably have better naming convention, I’ll have comments on functions to explain the flow, I’ll also check if there are codes that can be reusable.
